@@ -1,0 +1,29 @@
+.floating-header-share-tg {
+    display: block;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    line-height: 48px;
+    text-align: center;
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.floating-header-share-tg {
+    background: #2CA5E0;
+}
+
+@media (max-width: 900px) {
+    .floating-header {
+        height: 40px;
+    }
+    .floating-header-title,
+    .floating-header-logo {
+        font-size: 1.5rem;
+    }
+    .floating-header-share-tg {
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+    }
+}
