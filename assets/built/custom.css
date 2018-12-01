@@ -38,10 +38,19 @@ code, kbd, pre, samp {
 
 /* Reduce padding-bottom of the footer by 20px */
 .site-footer {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 /* Make the post content font size 0.3rem tinier */
 .post-full-content {
     font-size: 1.9rem;
+}
+
+.nav {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.site-footer-content {
+    font-size: 1.6rem;
 }
