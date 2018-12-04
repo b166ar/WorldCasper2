@@ -5,6 +5,7 @@
                 <a class="site-nav-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>
             {{else}}
                 <a class="site-nav-logo" href="{{@blog.url}}">{{@blog.title}}</a>
+                
             {{/if}}
         {{/is}}
         {{#if @blog.navigation}}
@@ -13,6 +14,7 @@
     </div>
     <div class="site-nav-right">
         <div class="social-links">
+        {{> "google-search"}}
                 <a class="social-link social-link-fb" href="https://t.me/moswrld" title="Telegram" target="_blank" rel="noopener">{{> "icons/telegram"}}</a>
 
             {{#if @blog.facebook}}
