@@ -17,10 +17,12 @@
     .floating-header {
         height: 40px;
     }
+
     .floating-header-title,
     .floating-header-logo {
         font-size: 1.5rem;
     }
+
     .floating-header-share-tg {
         width: 40px;
         height: 40px;
@@ -31,7 +33,9 @@
 
 /* Use GitLab-like font for code blocks instead of ugly monospace */
 
-code, kbd, pre, samp {
+code,
+pre,
+samp {
     font-family: "Menlo", "DejaVu Sans Mono", "Liberation Mono", "Consolas", "Ubuntu Mono", "Courier New", "andale mono", "lucida console", monospace;
 }
 
@@ -56,7 +60,26 @@ code, kbd, pre, samp {
     font-size: 1.6rem;
 }
 
-input[type=search] {
-    box-sizing: content-box;
-    -webkit-appearance: searchfield;
+kbd {
+    padding: 0.1em 0.6em;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 0.1em;
+    text-shadow: 0 1px 0 #fff;
+    line-height: 1.4;
+    background-color: #E5E5E5;
 }
+
+ .menu{
+    background-color: #E5EFF5;
+}
+
+
+
+
