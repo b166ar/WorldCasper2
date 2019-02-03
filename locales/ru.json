@@ -4,7 +4,7 @@
     "Older Posts": "Ещё",
     "Page {page} of {pages}": "Страница {page} из {pages}",
     "Subscribe": "Подписаться",
-    "Subscribe to {blogtitle}": "Подписаться на {blogtitle}",
+    "Subscribe to {{@site.title}}": "Подписаться на {{@site.title}}",
     "Subscribed!": "Вы подписаны!",
     "with the email address": "для",
     "Your email address": "Ваш email-адрес",
@@ -32,3 +32,4 @@
     "1 min read": "1 мин на чтение",
     "% min read": "% мин на чтение"
 }
+
